@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 5</title>
+    
 </head>
 <body>
-    <input type="radio" value="FBD" name="matria"/>FBD
+    <dd>
+    <h1>Formulario de Registro de Alumnos de Nuevo Ingreso</h1>
+    <form>
+        <div>
+            <label for="Nombre">Nombre Completo</label>
+            <input type="text" name="Nombre"/>
+            <br>
+        </div>
+
+        <div>
+            <label form="Correo">Correo Electronico</label>
+            <input type="text" name="Correo" />
+        </div>
+
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" placeholder="*****" name="contraseña">
+        </div>
+
+        <p>
+            <p>Género:</p>
+            <input type="radio" name="genero" value="Hombre"> Hombre<br/>
+            <input type="radio" name="genero" value="Mujer"> Mujer<br/>
+            <input type="radio" name="genero" value="Otro">Otro<br/>
+        </p>
+
+
+        <div>
+            <p>Intereses</p>
+            <input type="checkbox" name="Intereses" value="Deportes">Deportes<br/>
+            <input type="checkbox" name="Intereses" value="Música"> Música<br/>
+            <input type="checkbox" name="Intereses" value="Tecnologia">Tecnologia<br/>
+        </div>
+    </form>
+    <div>
+        <label for="carrera">Carrera a la que aspiras:</label>
+        <select id="carrera">
+            <option selected="selected">Ingeniería en Sistemas Computacionales</option>
+            <option>Ingeniería Civil</option>
+            <option>Arquitectura</option>
+            <option>Ingeniería en Mecatrónica</option>
+        </select>
+    </div>
+
+
+
+    <form>
+        <div>
+            <label for="comentarios">Comentarios Adicionales</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
+        </div>
+    
+        <div>
+            <button type="submit">Enviar Formulario</button>
+            <button type="reset">Limpiar Formulario</button>
+        </div>
+    </form>
+    </dd>
 </body>
 </html> 
