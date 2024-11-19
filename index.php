@@ -25,7 +25,9 @@
                 <li style="color: white;"> <a style="color: white;" href="actividad3php.php">Actividad PHP 3</a> </li>
                 <li style="color: white;"> <a style="color: white;" href="actividad4php.php">Actividad PHP 4</a> </li>
                 <li style="color: white;"> <a style="color: white;" href="actividad5php.php">Actividad PHP 5</a> </li>
+                <li style="color: white;"> <a style="color: white;" href="actividad6php.php">Actividad PHP 6</a> </li>
+                <li style="color: white;"> <a style="color: white;" href="/RE/Actividad7php.png">Actividad PHP 7</a> </li>
             </ol>
-        </nav>   
+        </nav> 
 </body>
 </html>
